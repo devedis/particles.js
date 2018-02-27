@@ -1235,7 +1235,9 @@ var pJS = function(tag_id, params){
 
   pJS.fn.vendors.destroypJS = function(){
     cancelAnimationFrame(pJS.fn.drawAnimFrame);
-    canvas_el.parentNode.removeChild(canvas_el);
+    if(canvas_el !== null && canvas_el.parentNode !== null) {
+      canvas_el.parentNode.removeChild(canvas_el);
+    }
     //pJSDom = null;
   };
 
