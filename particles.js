@@ -1413,6 +1413,11 @@ var pJS = function(tag_id, params){
 
 };
 
+// Hack for server side Rendering
+if (typeof window === 'undefined') {
+    global.window = {};
+}
+
 /* ---------- global functions - vendors ------------ */
 
 Object.deepExtend = function(destination, source) {
