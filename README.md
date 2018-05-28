@@ -1,6 +1,6 @@
 ## particles.js
 
-### A lightweight JavaScript library for creating particles.
+### A lightweight JavaScript library for creating particles. It is used for the <a href="https://devedis.ch" target="_blank" rel="follow">devedis Webpage</a>
 
 ------------------------------
 ### `Demo / Generator`
@@ -233,11 +233,6 @@ https://atmospherejs.com/newswim/particles
 ```
 meteor add newswim:particles
 ```
-
 -------------------------------
 
-### `Hosting / CDN`
 
-***Please use this host or your own to load particles.js on your projects***
-
-http://www.jsdelivr.com/#!particles.js
